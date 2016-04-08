@@ -9,10 +9,10 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
     <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
     <link rel="icon" href="favicon.ico">
+
 
     <!-- NOTE: style section to make changes to bootstrap -->
     <style>
@@ -22,11 +22,14 @@
 </head>
 
 
-<body>
-<!-- NOTE: NAVBAR -->
+<body data-spy="scroll" data-target="#navbar-example">
+
+<div class="container-fluid">
+<div class="row">
 
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
+    <div id="navbar-example">
+
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -35,39 +38,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">METERING & TESTING SERVICES</a>
+      <a class="navbar-brand active" href="#">METERING & TESTING SERVICES<span class="sr-only">(current)</span></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Services</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Equipment <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">2 Phase Separators</a></li>
-            <li><a href="#">3 Phase Separators</a></li>
-            <li><a href="#">Sand Separators</a></li>
-            <li><a href="#">Heater Treaters</a></li>
-            <li><a href="#">Indirect Line Heaters</a></li>
-            <li><a href="#">Gas Units</a></li>
-            <li><a href="#">Flare Stacks</a></li>
-            <li><a href="#">Flow Back Manifolds</a></li>
-            <li><a href="#">Test Tanks</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Wireless Data Loggers</a></li>
-          </ul>
-        </li>
+      <ul class="nav navbar-nav" role="tablist">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#equipment">Equipment</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Contact Us</a></li>
-          </ul>
-        </li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  </div>
 </nav>
 <!-- NOTE: end nav bar -->
 
@@ -83,23 +68,28 @@
 
 <!-- NOTE: services section -->
 <div class="col-md-6 col-md-offset-3 page-header">
-  <h1>SERVICES</h1>
+    <div id="services">
+      <h1>SERVICES</h1>
+    </div>
+
+    <div class="col-md-6 col-md-offset-3">
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Gas Oil Ratio Tests</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Monitor Production Tests</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Frac Flow Backs</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Texas Railroad Commission Tests</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> NM OCD Tests</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Meter Calibration</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> On-Line Well Test Data</h4>
+    </div>
 </div>
-<div class="col-md-6 col-md-offset-3">
-  <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Gas Oil Ratio Tests</h4>
-  <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Monitor Production Tests</h4>
-  <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Frac Flow Backs</h4>
-  <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Texas Railroad Commission Tests</h4>
-  <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> NM OCD Tests</h4>
-  <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Meter Calibration</h4>
-  <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> On-Line Well Test Data</h4>
-</div>
+
 
 <!-- NOTE: equipment -->
-<div class="thumbail_container">
-
-<div class="col-md-6 col-md-offset-3 page-header">
-  <h1>EQUIPMENT</h1>
+<!-- <div class="thumbail_container"> -->
+  <div class="col-md-6 col-md-offset-3 page-header">
+    <div id="equipment">
+      <h1>EQUIPMENT</h1>
+    </div>
 </div>
 <!-- NOTE: row1-->
 <div class="row">
@@ -132,7 +122,9 @@
       </div>
     </div>
   </div>
+
 </div>
+
 
 <!-- NOTE: row 2 -->
 <div class="row">
@@ -299,21 +291,27 @@
       </div>
     </div>
     </div>
-</div> <!-- NOTE: thumbnail closing div -->
+<!-- </div> <!-- NOTE: thumbnail closing div -->
 
 <div class="col-md-6 col-md-offset-3 page-header">
+  <div id="contact">
   <h1>CONTACT US</h1>
+  </div>
 </div>
 
 <div class="col-md-6 col-md-offset-3">
 
-
   <h2> ODESSA | TEXAS </h2>
   <h4> 11300 West I-20 East <br>
-Odessa, TX 79765<br>
-Phone: (432)563-1445<br>
-Fax:(432)563-0120<br>
-</h4>
+      Odessa, TX 79765<br>
+      Phone: (432)563-1445<br>
+      Fax:(432)563-0120<br>
+  </h4>
+
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13548.290760428818!2d-102.2297112!3d31.9046223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd51a812de7733ee4!2sMetering+%26+Testing+Services!5e0!3m2!1sen!2sus!4v1460152113969" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<br>
 
  <h2> HOBBS | NEW MEXICO </h2>
  <h4> 2807 West County Road <br>
@@ -321,6 +319,8 @@ Fax:(432)563-0120<br>
  Phone:(575)397-1631 <br>
  Fax:(575)397-0990<br>
  </h4>
+
+
 
  <h2> WEATHERFORD | TEXAS </h2>
  <h4> 8016 West I-20 <br>
@@ -334,13 +334,23 @@ Fax:(432)563-0120<br>
  <h3> hobbs@meteringandtesting.com </h3>
 </div>
 
+  </div> <!--row -->
+
+</div> <!-- /.container-fluid -->
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+
 <script>
 $('body').scrollspy({ target: '#navbar-example' })
+
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 </script>
 
 </body>
