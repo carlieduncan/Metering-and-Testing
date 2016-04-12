@@ -315,11 +315,17 @@ body {
   height: 750px;
 }
 
+.thumbnail img{
+   min-height:150px; height:150px;
+}
+
 
 .thumbnail_container{
   /*padding: 25px;*/
+  .clearfix();
   margin: 15px;
 }
+
 
 /* NOTE: moved contact button left */
 ul.nav.navbar-nav.navbar-right {
