@@ -311,6 +311,19 @@ body {
     background-size: 100% 100%;
 }
 
+
+/*#servicesbackground{
+  position: relative;
+  background: url("sunset.jpg") center center;
+
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  color: white;
+  background-color: transparent;
+}*/
+
 .jbcontainer {
   height: 750px;
 }
