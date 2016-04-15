@@ -3,12 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> METERING & TESTING SERVICES</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
     <link rel="icon" href="favicon.ico">
 
@@ -16,11 +22,11 @@
 
 <body data-spy="scroll" data-target="#navbar-example">
 
-<div class="container-fluid">
+<div class="container">
 <div class="row">
 
+  <div id="navbar-example">
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div id="navbar-example">
 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -47,20 +53,24 @@
         <li><a href="#contact">CONTACT US</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
-  </div>
 </nav>
+</div>
+
+</div> <!-- NOTE: row div -->
 <!-- NOTE: end nav bar -->
 
+<div class="row">
           <!-- NOTE: jumbotron starts here -->
-
-
-      <div class="jumbotron">
-                <img src="img/mtlogo.png" class="img-responsive center-block"  alt="" />
-                </div>
+          <div class="jumbotron">
+            <div class="container">
+                              <img src="img/mtlogo.png" class="img-responsive center-block"  alt="" />
+                            </div>
+                    </div>
+</div> <!-- NOTE: row -->
 
 <!-- NOTE: about us -->
-
-<div class="col-md-6 col-md-offset-3 page-header">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
     <div id="about">
       <h1>ABOUT US</h1>
           <h3 class="sectionheader"> PROVIDING THE BEST PRODUCTION WELL TESTING SERVICES & RENTAL EQUIPMENT IN THE PERMIAN BASIN & BEYOND.</h3>
@@ -75,8 +85,11 @@
             </div>
           </div>
 
+</div> <!-- NOTE: row -->
+
 <!-- NOTE: services section -->
-<div class="col-md-6 col-md-offset-3 page-header">
+<div class="row" id="servicesdiv">
+<div class="col-md-6 col-md-offset-3">
     <div id="services">
       <h1>SERVICES</h1>
   </div>
@@ -92,17 +105,17 @@
     </div>
 </div>
 
-
+</div>
 
 <!-- NOTE: equipment -->
 <div class="thumbnail-container">
-  <div class="col-md-6 col-md-offset-3 page-header">
+  <div class="col-md-6 col-md-offset-3">
     <div id="equipment">
       <h1>EQUIPMENT</h1>
       <h3 class="sectionheader"> With over 300 pieces of equipment, we likely have what you need. Please give us a call if what you are looking for is not listed below as this is only a fraction of our inventory:</h3>
-
     </div>
 </div>
+<br><br>
 <!-- NOTE: row1-->
 <div class="row">
   <div class="col-sm-6 col-md-4">
@@ -110,7 +123,7 @@
       <img src="img/36x10_separator.png" alt="3phase_500_36x10">
       <div class="caption">
         <h3> 36" x 10' 3 Phase Separator</h3>
-        <p> 500 psi</p>
+        <p> 125 psi, 250 psi, 500 psi</p>
       </div>
     </div>
   </div>
@@ -120,7 +133,7 @@
       <img src="img/48x10-separator.png" alt="3phase_48x10">
       <div class="caption">
         <h3> 48"x10' 3 Phase Separator</h3>
-        <p> 250 psi</p>
+        <p> 125 psi, 250 psi, 500 psi </p>
       </div>
     </div>
   </div>
@@ -130,13 +143,10 @@
       <img src="img/72x15-3phase.png" alt="72x15-3phase">
       <div class="caption">
         <h3> 72"x15'  3 Phase Separator</h3>
-        <p> ?????? psi</p>
+        <p> 125 psi, 250 psi</p>
       </div>
     </div>
   </div>
-
-
-
 </div>
 
 
@@ -149,7 +159,43 @@
       <img src="img/84x30-3phase.png" alt="84x30-3phase">
       <div class="caption">
         <h3> 84" x 30' 3 Phase Separator</h3>
-        <p> ??? psi</p>
+        <p> 250 psi</p>
+      </div>
+    </div>
+  </div>
+
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    <img src="img/36x10_1440psi.png" alt="36x10_1440psi">
+    <div class="caption">
+      <h3> 36" x 10' 3 Phase Separator</h3>
+      <p> 1,440 psi</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    <img src="img/15000_3phase.png" alt="15000psi3phasegasunit">
+    <div class="caption">
+      <h3> 3 Phase Gas Unit</h3>
+      <p> 15,000 psi</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- NOTE: row 3 -->
+
+<div class="row">
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/30x8_2phase.png" alt="30x8_2phase">
+      <div class="caption">
+        <h3> 30" x 8' 2 Phase Separator </h3>
+        <p> 125 psi, 250 psi</p>
       </div>
     </div>
   </div>
@@ -159,7 +205,7 @@
     <img src="img/bypass_manifold.png" alt="bypass_manifold">
     <div class="caption">
       <h3> Bypass Manifold</h3>
-      <p> ????? psi</p>
+      <p>***************</p>
     </div>
   </div>
 </div>
@@ -176,14 +222,14 @@
 
 </div>
 
-<!-- NOTE: row3 -->
+<!-- NOTE: row4 -->
 <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="img/sand_separator.png" alt="sandseparator">
       <div class="caption">
         <h3> Sand Separator</h3>
-        <p> 3000 psi and 5000 psi available </p>
+        <p> 3,000 psi</p>
       </div>
     </div>
   </div>
@@ -194,7 +240,7 @@
       <img src="img/indirect_heater.png" alt="indirect_heater">
       <div class="caption">
         <h3> Indirect Line Heater</h3>
-        <p> ???? psi</p>
+        <p> 3,000 psi, 5,000 psi</p>
       </div>
     </div>
   </div>
@@ -204,18 +250,15 @@
       <img src="img/detenation_arrestor.png" alt="detenation_arrestor">
       <div class="caption">
         <h3> Detenation Arrestor</h3>
-        <p> needs info</p>
+        <p> ****************</p>
       </div>
     </div>
   </div>
-
-
   </div>
 
-  <!-- NOTE: row4 -->
+  <!-- NOTE: row5 -->
 
     <div class="row">
-
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
           <img src="img/4x40-flare.png" alt="flare4">
@@ -241,148 +284,100 @@
         <img src="img/portable_tank.png" alt="tank" >
         <div class="caption">
           <h3> Portable Test Tank</h3>
-          <p> Capacity: ????? </p>
-
+          <p> Capacity: 90 - 120 bbl. </p>
         </div>
       </div>
     </div>
+    </div>
+
+  </div> <!-- NOTE: thumbnail_container -->
+
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+      <h3> ADDITIONAL EQUIPMENT:</h3>
+
+      <ul class="list-group" id="equipmentlist">
+        <li class="list-group-item">36" X 10' 2 PHASE GAS SCRUBBERS, 250 PSI</li>
+        <li class="list-group-item">48" X 16' 3 PHASE SEPARATORS, 500 PSI</li>
+        <li class="list-group-item">INDIRECT PRODUCTION HEATER, 1,000 PSI</li>
+        <li class="list-group-item">DATA LOGGING SYSTEMS</li>
+      </ul>
+</div>
+</div>
+
+<!-- NOTE: safety section -->
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+      <div id="safety">
+        <h1>SAFETY </h1>
+              <h3 class="sectionheader"> At Metering & Testing Services, Inc. we take health, safety and environmental protection very seriously and believe that a comprehensive HSE policy is integral to providing quality service.</h3>
+<br>
+                <h4> Metering & Testing Services, Inc. reports health and safety data to both <span class="text-warning">ISNetworld and PEC/Premier Safety Management System </span> regularly.</h4>
+
+                <h4> We recently received an <span class="text-warning">“A” RAVS Plus Ranking from ISNetworld</span>. RAVS Plus is an implementation assessment of contractors’ written health, safety and environmental program. </h4>
+
+
+                <h4>   We also partner with <span class="text-warning">Axiom Medical Consulting, LLC</span> specializing in total medical management services in the fields of workers' compensation, disability case management and OSHA-mandated medical programs. </h4>
+
+                <h4> Metering & Testing Services, Inc. employees have received safety training and are qualified in dozens of HSE areas:
+            </div>
+        </div>
+  </div> <!-- NOTE: row -->
+<br>
+    <div class="row text-muted">
+      <div class="col-md-4 text-center">
+            <ul class="safetyqualifications">
+                          <li>Basic Safety Awareness</li>
+                          <li>Behavior Based Safety</li>
+                          <li>Blood-borne Pathogens</li>
+                          <li>Driving Safety</li>
+                          <li>Emergency Action Plan</li>
+                          <li>First Aid</li>
+                          <li>Hand and Power Tools</li>
+                          <li>Hazard Communication</li>
+
+            </ul>
+        </div>
+
+      <div class="col-md-4 text-center">
+        <ul class="safetyqualifications">
+                      <li>Heat Illness Prevention</li>
+                      <li>Hydrogen Sulfide (H2S)</li>
+                      <li>Job Competency</li>
+                      <li>Ladder Safety</li>
+                      <li>Lockout/Tagout</li>
+                      <li>Manual Lifting</li>
+                      <li>Mobile Equipment</li>
+                      <li>Noise</li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <ul class="safetyqualifications">
+                          <li>Personal Protective Equipment</li>
+                          <li>Preventative Maintenance </li>
+                          <li>Respiratory Protection</li>
+                          <li>Rigging Program</li>
+                          <li>Safeland Certification</a></li>
+                          <li>Short-Service Employee</li>
+                          <li>Stop Work Authorization Program</li>
+                      </ul>
+
+
+      </div>
 
     </div>
 
 
-</div> <!-- NOTE: thumbnail_container -->
 
-<!-- NOTE: safety section -->
+<br> <br> <br>
 
-<div class="col-md-6 col-md-offset-3 page-header">
-    <div id="safety">
-      <h1>SAFETY </h1>
-            <h3 class="sectionheader"> At Metering & Testing Services, Inc. we take health, safety and environmental protection very seriously and believe that a comprehensive HSE policy is integral to providing quality service.</h3>
-            <br>
-
-            <h4> Metering & Testing Services, Inc. reports health and safety data to both <a href="https://www.isnetworld.com/">ISNetworld</a> and <a href="http://pecsafety.com/
-              ">PEC/Premier Safety Management System</a> regularly.</h4>
-
-            <h4>   We recently received an “A” RAVS Plus Ranking from ISNetworld. RAVS Plus is an implementation assessment of contractors’ written health, safety and environmental program. </h4>
-
-
-            <h4>   We also partner with <a href="https://www.axiomllc.com/">Axiom Medical Consulting, LLC </a>specializing in total medical management services in the fields of workers' compensation, disability case management and OSHA-mandated medical programs.         </h4>
-
-            <h4> Metering & Testing Services, Inc. employees have received training and are proficient in the following areas:
-            </h4>
-<br>
-            <ul>
-                <li>Assured Equipment Grounding Conductor Program</li>
-                <li>Basic Safety Awareness</li>
-                <li>Behavior Based Safety</li>
-                <li>Blood-borne Pathogens</li>
-                <li>Driving Safety</li>
-                <li>Emergency Action Plan</li>
-                <li>First Aid</li>
-                <li>Hand and Power Tools</li>
-                <li>Hazard Communication</li>
-                <li>Heat Illness Prevention</li>
-                <li>Hydrogen Sulfide (H2S)</li>
-                <li>Job Competency</li>
-                <li>Ladder Safety</li>
-                <li>Lockout/Tagout</li>
-                <li>Manual Lifting</li>
-                <li>Mobile Equipment</li>
-                <li>Noise</li>
-                <li>Personal Protective Equipment</li>
-                <li>Preventative Maintenance </li>
-                <li>Respiratory Protection</li>
-                <li>Rigging Program</li>
-                <li>Short-Service Employee</li>
-                <li>Stop Work Authorization Program</li>
-            </ul>
-            </div>
-          </div>
-
-
-
-
-          <div class="container">
-
-
-              <div class="row">
-                  <div class="col-md-6">
-
-                     <h2>Product Info</h2>
-
-
-                        <div class="col-md-4 col-md-offset-1">
-
-                        <!-- class col-md-offset-1 increases left margin by 1 col-->
-
-                            <img src="http://placehold.it/200x200" alt="#"><br>
-                            <div class="caption">
-                                <h4>Caption</h4>
-                                <p>consectetur adipisicing elit.</p>
-                               <p><a href="#">Learn More</a></p>
-                            </div>
-                          </div>
-
-
-
-                         <div class="col-md-4 col-md-offset-2">
-
-                           <!--class col-md-offset-2 increases left margin by 2 cols-->
-
-                            <img src="http://placehold.it/200x200" alt="#"><br>
-                            <div class="caption">
-                                <h4>Caption</h4>
-                                <p>consectetur adipisicing elit.</p>
-                               <p><a href="#">Learn More</a></p>
-                            </div>
-                          </div>
-
-                 </div>
-
-          <!--end of Products Thumbnails -->
-
-                 <div class="col-md-6" id="gallery">
-                      <div class="gallery">
-
-                            <h2>Gallery</h2>
-
-                            <div class="row">
-
-
-                              <img class="col-md-6" src="img/sunset.jpg" alt="sunset" width="300" height="200">
-
-
-                              <img class="col-md-6" src="img/sunset.jpg" alt="sunset" width="300" height="200">
-
-                             </div><!--/.row-->
-
-                         <div class="margin"></div>
-
-                            <div class="row">
-                              <img class="col-md-6" src="img/sunset.jpg" alt="sunset" width="300" height="200">
-
-                              <img class="col-md-6" src="img/sunset.jpg" alt="sunset" width="300" height="200">
-                            </div><!--/.row-->
-
-                      </div><!-- gallery  -->
-                 </div>
-
-          <!--end of Photo Gallery -->
-
-              </div><!--/.row-->
-           </div> <!-- /container -->
-
-
-
-
-
-
-
-
-
-<div class="col-md-6 col-md-offset-3 page-header">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
   <div id="contact">
-  <h1>CONTACT US</h1>
+  <h2>CONTACT US</h1>
+  <h4>Phone: <a href="tel:+1-800-698-3814">+1-800-698-3814</a> </h4>
+
   </div>
 </div>
 
@@ -392,15 +387,16 @@
   <h4> 11300 West I-20 East <br>
       Odessa, TX 79765<br>
       <br>
-      Email: <a href="mailto:odessa@meteringandtesting.com">odessa@meteringandtesting.com</a>  <br>
+      Email: <a href="mailto:odessa@meteringandtesting.com">odessa@meteringandtesting.com  <br>
       Phone: <a href="tel:+1-432-563-1445">+1 (432) 563-1445</a> <br>
       <!-- Fax: (432) 563-0120<br> -->
       President: Dan Fleeman<br>
   </h4>
 
 <br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13548.290760428818!2d-102.2297112!3d31.9046223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd51a812de7733ee4!2sMetering+%26+Testing+Services!5e0!3m2!1sen!2sus!4v1460152113969" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+<div class="google-maps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13548.290760428818!2d-102.2297112!3d31.9046223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd51a812de7733ee4!2sMetering+%26+Testing+Services!5e0!3m2!1sen!2sus!4v1460152113969" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 <br>
 <br>
 
@@ -412,12 +408,13 @@
  Email: <a href="mailto:hobbs@meteringandtesting.com">hobbs@meteringandtesting.com</a>  <br>
  Phone: <a href="tel:+1-575-397-1631">+1 (575) 397-1631 </a> <br>
  <!-- Fax: (575) 397-0990<br> -->
- President: Tom Duncan<br>
+ Vice President: Tom Duncan<br>
  </h4>
  <br>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.3063749449307!2d-103.1731910498284!3d32.73105449354256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fc9557025bf003%3A0x51b4d8c42f79db23!2sMetering+%26+Testing+Services+Inc!5e0!3m2!1sen!2sus!4v1460152333300" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+<div class="google-maps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.3063749449307!2d-103.1731910498284!3d32.73105449354256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fc9557025bf003%3A0x51b4d8c42f79db23!2sMetering+%26+Testing+Services+Inc!5e0!3m2!1sen!2sus!4v1460152333300" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 <br>
 <br>
 
@@ -434,15 +431,19 @@ Manager: Fred Coonce<br>
  </h4>
 
 <br>
- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.44377822598!2d-97.97895204982919!3d32.700833495081106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8651f08df395f5ab%3A0xbe957c0df48582bd!2sMetering+%26+Testing+Services!5e0!3m2!1sen!2sus!4v1460152398376" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<div class="google-maps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.44377822598!2d-97.97895204982919!3d32.700833495081106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8651f08df395f5ab%3A0xbe957c0df48582bd!2sMetering+%26+Testing+Services!5e0!3m2!1sen!2sus!4v1460152398376" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
 
 <br>
 <br>
 </div>
 
-  </div> <!--row -->
+</div>
 
-</div> <!-- /.container-fluid -->
+  </div> <!--container-->
+
 
 <!-- NOTE: footer -->
 <div class="container">
@@ -453,19 +454,26 @@ Manager: Fred Coonce<br>
     </div>
 
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
-$('body').scrollspy({ target: '#navbar-example' })
 
-$('#myTabs a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 </script>
 
 </body>

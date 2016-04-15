@@ -286,66 +286,50 @@ body {
   position: relative;
 }
 
-
 /* NOTE: allows navbar to jump to appropriate section */
 *[id]:before {
   display: block;
   content: " ";
-  margin-top: -75px;
+  margin-top: -67px;
   height: 75px;
   visibility: hidden;
 }
 
-
 .jumbotron {
-background-color: inherit;
-padding-top: 80px;
-
+padding-top: 60px;
+background-color: inherit;;
 }
 
 .jumbotron img {
   height: 550px;
+  max-width:100%;
 }
 
-
-/*#servicesbackground{
-  position: relative;
-  background: url("sunset.jpg") center center;
-
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
-  color: white;
-  background-color: transparent;
-}*/
-
-
 .thumbnail img{
-   min-height:150px; height:150px;
+   min-height:150px;
+   height:150px;
 }
 
 
 .thumbnail_container{
-  /*padding: 25px;*/
-  .clearfix();
   margin: 15px;
 }
-
 
 /* NOTE: moved contact button left */
 ul.nav.navbar-nav.navbar-right {
 margin-right: 25px;
 }
 
-.navbar {
+.navbar-default {
   background-color: white;
 }
 
 .navbar-default .navbar-brand {
 color: #6FC2A6;
 font-weight: bold;
+margin-top: 5px;
 }
+
 
 .navbar-default .navbar-nav>li>a {
     color: #6FC2A6;
@@ -354,4 +338,39 @@ font-weight: bold;
 
 .sectionheader {
   color: #6FC2A6;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
 }
+
+
+/* NOTE: google maps */
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#equipmentlist {
+  text-align: center;
+}
+
+.safetyqualifications {
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  /*font-family: 'Old Standard TT', serif;*/
+}
+
+
+/*.servicesdiv{
+  background-image: url("fieldrig.jpg");
+}*/
