@@ -23,10 +23,12 @@
 <body data-spy="scroll" data-target="#navbar-example">
 
 <div class="container">
-<div class="row">
 
-  <div id="navbar-example">
-<nav class="navbar navbar-default navbar-fixed-top">
+
+<div class="container">
+    <div class="row">
+      <div id="navbar-example">
+        <nav class="navbar navbar-default navbar-fixed-top">
 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -36,39 +38,44 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand active" href="#">METERING & TESTING SERVICES, INC.<span class="sr-only">(current)</span></a>
+      <a class="navbar-brand active" href="#"> METERING & TESTING SERVICES, INC. <span class="sr-only">(current)</span></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav" role="tablist">
-        <li><a href="#about">ABOUT US</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#equipment">EQUIPMENT</a></li>
-        <li><a href="#safety">SAFETY</a></li>
-        <li><a href="http://mts.stratosiware.com/Login.aspx">MONITOR YOUR WELL</a></li>
-      </ul>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav" role="tablist">
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#equipment">EQUIPMENT</a></li>
+            <li><a href="#safety">SAFETY</a></li>
+            <li><a href="http://mts.stratosiware.com/Login.aspx">MONITOR YOUR WELL</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#contact">CONTACT US</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+    </div>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#contact">CONTACT US</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-</nav>
-</div>
-
-</div> <!-- NOTE: row div -->
+  </div> <!-- NOTE: row div -->
+</div> <!-- NOTE: container div -->
 <!-- NOTE: end nav bar -->
 
-<div class="row">
-          <!-- NOTE: jumbotron starts here -->
-          <div class="jumbotron">
-            <div class="container">
-                              <img src="img/mtlogo.png" class="img-responsive center-block"  alt="" />
-                            </div>
-                    </div>
-</div> <!-- NOTE: row -->
+<!-- NOTE: jumbotron -->
+  <div class="container">
+    <div class="row">
+            <!-- NOTE: jumbotron starts here -->
+            <div class="jumbotron">
+              <div class="container">
+                                <img src="img/mtlogo.png" class="img-responsive center-block"  alt="" />
+                              </div>
+                      </div>
+                    </div> <!-- NOTE: row -->
+  </div>
+
 
 <!-- NOTE: about us -->
+<div class="container">
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
     <div id="about">
@@ -86,8 +93,10 @@
           </div>
 
 </div> <!-- NOTE: row -->
+</div> <!-- NOTE: container -->
 
 <!-- NOTE: services section -->
+<div class="container">
 <div class="row" id="servicesdiv">
 <div class="col-md-6 col-md-offset-3">
     <div id="services">
@@ -102,10 +111,10 @@
       <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  New Mexico OCD Tests</h4>
       <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  Meter Calibration</h4>
       <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  On-Line Well Test Data</h4>
+      </div>
     </div>
-</div>
-
-</div>
+  </div>
+</div> <!-- NOTE: container -->
 
 <!-- NOTE: equipment -->
 <div class="thumbnail-container">
@@ -117,16 +126,16 @@
 </div>
 <br><br>
 <!-- NOTE: row1-->
-<div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="img/36x10_separator.png" alt="3phase_500_36x10">
-      <div class="caption">
-        <h3> 36" x 10' 3 Phase Separator</h3>
-        <p> 125 psi, 250 psi, 500 psi</p>
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="img/36x10_separator.png" alt="3phase_500_36x10">
+        <div class="caption">
+          <h3> 36" x 10' 3 Phase Separator</h3>
+          <p> 125 psi, 250 psi, 500 psi</p>
+        </div>
       </div>
     </div>
-  </div>
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
@@ -290,158 +299,161 @@
     </div>
     </div>
 
-  </div> <!-- NOTE: thumbnail_container -->
+</div> <!-- NOTE: thumbnail_container -->
 
-<div class="row">
-<div class="col-md-6 col-md-offset-3">
-      <h3> ADDITIONAL EQUIPMENT:</h3>
-
-      <ul class="list-group" id="equipmentlist">
-        <li class="list-group-item">36" X 10' 2 PHASE GAS SCRUBBERS, 250 PSI</li>
-        <li class="list-group-item">48" X 16' 3 PHASE SEPARATORS, 500 PSI</li>
-        <li class="list-group-item">INDIRECT PRODUCTION HEATER, 1,000 PSI</li>
-        <li class="list-group-item">DATA LOGGING SYSTEMS</li>
-      </ul>
-</div>
-</div>
-
-<!-- NOTE: safety section -->
-<div class="row">
+<div class="container">
+  <div class="row">
   <div class="col-md-6 col-md-offset-3">
-      <div id="safety">
-        <h1>SAFETY </h1>
-              <h3 class="sectionheader"> At Metering & Testing Services, Inc. we take health, safety and environmental protection very seriously and believe that a comprehensive HSE policy is integral to providing quality service.</h3>
-<br>
-                <h4> Metering & Testing Services, Inc. reports health and safety data to both <span class="text-warning">ISNetworld and PEC/Premier Safety Management System </span> regularly.</h4>
+        <h3> ADDITIONAL EQUIPMENT:</h3>
 
-                <h4> We recently received an <span class="text-warning">“A” RAVS Plus Ranking from ISNetworld</span>. RAVS Plus is an implementation assessment of contractors’ written health, safety and environmental program. </h4>
-
-
-                <h4>   We also partner with <span class="text-warning">Axiom Medical Consulting, LLC</span> specializing in total medical management services in the fields of workers' compensation, disability case management and OSHA-mandated medical programs. </h4>
-
-                <h4> Metering & Testing Services, Inc. employees have received safety training and are qualified in dozens of HSE areas:
-            </div>
-        </div>
-  </div> <!-- NOTE: row -->
-<br>
-    <div class="row text-muted">
-      <div class="col-md-4 text-center">
-            <ul class="safetyqualifications">
-                          <li>Basic Safety Awareness</li>
-                          <li>Behavior Based Safety</li>
-                          <li>Blood-borne Pathogens</li>
-                          <li>Driving Safety</li>
-                          <li>Emergency Action Plan</li>
-                          <li>First Aid</li>
-                          <li>Hand and Power Tools</li>
-                          <li>Hazard Communication</li>
-
-            </ul>
-        </div>
-
-      <div class="col-md-4 text-center">
-        <ul class="safetyqualifications">
-                      <li>Heat Illness Prevention</li>
-                      <li>Hydrogen Sulfide (H2S)</li>
-                      <li>Job Competency</li>
-                      <li>Ladder Safety</li>
-                      <li>Lockout/Tagout</li>
-                      <li>Manual Lifting</li>
-                      <li>Mobile Equipment</li>
-                      <li>Noise</li>
+        <ul class="list-group" id="equipmentlist">
+          <li class="list-group-item">36" X 10' 2 PHASE GAS SCRUBBERS, 250 PSI</li>
+          <li class="list-group-item">48" X 16' 3 PHASE SEPARATORS, 500 PSI</li>
+          <li class="list-group-item">INDIRECT PRODUCTION HEATER, 1,000 PSI</li>
+          <li class="list-group-item">DATA LOGGING SYSTEMS</li>
         </ul>
       </div>
-
-      <div class="col-md-4 text-center">
-        <ul class="safetyqualifications">
-                          <li>Personal Protective Equipment</li>
-                          <li>Preventative Maintenance </li>
-                          <li>Respiratory Protection</li>
-                          <li>Rigging Program</li>
-                          <li>Safeland Certification</a></li>
-                          <li>Short-Service Employee</li>
-                          <li>Stop Work Authorization Program</li>
-                      </ul>
+  </div>
+</div> <!-- NOTE: container -->
 
 
+<!-- NOTE: safety section -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div id="safety">
+          <h1>SAFETY </h1>
+                <h3 class="sectionheader"> At Metering & Testing Services, Inc. we take health, safety and environmental protection very seriously and believe that a comprehensive HSE policy is integral to providing quality service.</h3>
+  <br>
+                  <h4> Metering & Testing Services, Inc. reports health and safety data to both <span class="text-warning">ISNetworld and PEC/Premier Safety Management System </span> regularly.</h4>
+
+                  <h4> We recently received an <span class="text-warning">“A” RAVS Plus Ranking from ISNetworld</span>. RAVS Plus is an implementation assessment of contractors’ written health, safety and environmental program. </h4>
+
+
+                  <h4>   We also partner with <span class="text-warning">Axiom Medical Consulting, LLC</span> specializing in total medical management services in the fields of workers' compensation, disability case management and OSHA-mandated medical programs. </h4>
+
+                  <h4> Metering & Testing Services, Inc. employees have received safety training and are qualified in dozens of HSE areas:
+              </div>
+          </div>
+    </div> <!-- NOTE: row -->
+  <br>
+      <div class="row text-muted">
+        <div class="col-md-4 text-center">
+              <ul class="safetyqualifications">
+                            <li>Basic Safety Awareness</li>
+                            <li>Behavior Based Safety</li>
+                            <li>Blood-borne Pathogens</li>
+                            <li>Driving Safety</li>
+                            <li>Emergency Action Plan</li>
+                            <li>First Aid</li>
+                            <li>Hand and Power Tools</li>
+                            <li>Hazard Communication</li>
+
+              </ul>
+          </div>
+
+        <div class="col-md-4 text-center">
+          <ul class="safetyqualifications">
+                        <li>Heat Illness Prevention</li>
+                        <li>Hydrogen Sulfide (H2S)</li>
+                        <li>Job Competency</li>
+                        <li>Ladder Safety</li>
+                        <li>Lockout/Tagout</li>
+                        <li>Manual Lifting</li>
+                        <li>Mobile Equipment</li>
+                        <li>Noise</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <ul class="safetyqualifications">
+                            <li>Personal Protective Equipment</li>
+                            <li>Preventative Maintenance </li>
+                            <li>Respiratory Protection</li>
+                            <li>Rigging Program</li>
+                            <li>Safeland Certification</a></li>
+                            <li>Short-Service Employee</li>
+                            <li>Stop Work Authorization Program</li>
+                        </ul>
+
+
+        </div>
       </div>
-
-    </div>
-
+</div> <!-- NOTE: container -->
 
 
 <br> <br> <br>
+<div class="container">
+  <div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div id="contact">
+    <h2>CONTACT US</h1>
+    <h4>Phone: <a href="tel:+1-800-698-3814">+1-800-698-3814</a> </h4>
 
-<div class="row">
-<div class="col-md-6 col-md-offset-3">
-  <div id="contact">
-  <h2>CONTACT US</h1>
-  <h4>Phone: <a href="tel:+1-800-698-3814">+1-800-698-3814</a> </h4>
-
+    </div>
   </div>
-</div>
 
-<div class="col-md-6 col-md-offset-3">
+  <div class="col-md-6 col-md-offset-3">
 
-  <h2> ODESSA | TEXAS </h2>
-  <h4> 11300 West I-20 East <br>
-      Odessa, TX 79765<br>
-      <br>
-      Email: <a href="mailto:odessa@meteringandtesting.com">odessa@meteringandtesting.com  <br>
-      Phone: <a href="tel:+1-432-563-1445">+1 (432) 563-1445</a> <br>
-      <!-- Fax: (432) 563-0120<br> -->
-      President: Dan Fleeman<br>
-  </h4>
+    <h2> ODESSA | TEXAS </h2>
+    <h4> 11300 West I-20 East <br>
+        Odessa, TX 79765<br>
+        <br>
+        Email: <a href="mailto:odessa@meteringandtesting.com">odessa@meteringandtesting.com  <br>
+        Phone: <a href="tel:+1-432-563-1445">+1 (432) 563-1445</a> <br>
+        <!-- Fax: (432) 563-0120<br> -->
+        President: Dan Fleeman<br>
+    </h4>
 
-<br>
-<div class="google-maps">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13548.290760428818!2d-102.2297112!3d31.9046223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd51a812de7733ee4!2sMetering+%26+Testing+Services!5e0!3m2!1sen!2sus!4v1460152113969" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-<br>
-<br>
-
-
- <h2> HOBBS | NEW MEXICO </h2>
- <h4> 2807 West County Road <br>
- Hobbs, NM 88240 <br>
   <br>
- Email: <a href="mailto:hobbs@meteringandtesting.com">hobbs@meteringandtesting.com</a>  <br>
- Phone: <a href="tel:+1-575-397-1631">+1 (575) 397-1631 </a> <br>
- <!-- Fax: (575) 397-0990<br> -->
- Vice President: Tom Duncan<br>
- </h4>
- <br>
-
-<div class="google-maps">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.3063749449307!2d-103.1731910498284!3d32.73105449354256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fc9557025bf003%3A0x51b4d8c42f79db23!2sMetering+%26+Testing+Services+Inc!5e0!3m2!1sen!2sus!4v1460152333300" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-<br>
-<br>
+  <div class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13548.290760428818!2d-102.2297112!3d31.9046223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd51a812de7733ee4!2sMetering+%26+Testing+Services!5e0!3m2!1sen!2sus!4v1460152113969" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <br>
+  <br>
 
 
- <h2> WEATHERFORD | TEXAS </h2>
- <h4> 8016 West I-20 <br>
- Millsap, TX 76066 <br>
- <br>
- Email: <a href="mailto:weatherford@meteringandtesting.com">weatherford@meteringandtesting.com</a>  <br>
- Phone: <a href="tel:+1-817-594-5090">+1 (817) 594-5090</a> <br>
- <!-- Fax: (817) 594-1339 <br> -->
-Manager: Fred Coonce<br>
+   <h2> HOBBS | NEW MEXICO </h2>
+   <h4> 2807 West County Road <br>
+   Hobbs, NM 88240 <br>
+    <br>
+   Email: <a href="mailto:hobbs@meteringandtesting.com">hobbs@meteringandtesting.com</a>  <br>
+   Phone: <a href="tel:+1-575-397-1631">+1 (575) 397-1631 </a> <br>
+   <!-- Fax: (575) 397-0990<br> -->
+   Vice President: Tom Duncan<br>
+   </h4>
+   <br>
 
- </h4>
+  <div class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.3063749449307!2d-103.1731910498284!3d32.73105449354256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fc9557025bf003%3A0x51b4d8c42f79db23!2sMetering+%26+Testing+Services+Inc!5e0!3m2!1sen!2sus!4v1460152333300" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <br>
+  <br>
 
-<br>
-<div class="google-maps">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.44377822598!2d-97.97895204982919!3d32.700833495081106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8651f08df395f5ab%3A0xbe957c0df48582bd!2sMetering+%26+Testing+Services!5e0!3m2!1sen!2sus!4v1460152398376" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+
+   <h2> WEATHERFORD | TEXAS </h2>
+   <h4> 8016 West I-20 <br>
+   Millsap, TX 76066 <br>
+   <br>
+   Email: <a href="mailto:weatherford@meteringandtesting.com">weatherford@meteringandtesting.com</a>  <br>
+   Phone: <a href="tel:+1-817-594-5090">+1 (817) 594-5090</a> <br>
+   <!-- Fax: (817) 594-1339 <br> -->
+  Manager: Fred Coonce<br>
+
+   </h4>
+
+  <br>
+  <div class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.44377822598!2d-97.97895204982919!3d32.700833495081106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8651f08df395f5ab%3A0xbe957c0df48582bd!2sMetering+%26+Testing+Services!5e0!3m2!1sen!2sus!4v1460152398376" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
 
 
-<br>
-<br>
-</div>
+  <br>
+  <br>
+  </div>
 
-</div>
-
+      </div>
+    </div> <!-- NOTE: container -->
   </div> <!--container-->
 
 

@@ -287,13 +287,15 @@ body {
 }
 
 /* NOTE: allows navbar to jump to appropriate section */
-*[id]:before {
+/**[id]:before {
   display: block;
   content: " ";
-  margin-top: -67px;
-  height: 75px;
+  margin-top: -70px;
+  height: 70px;
   visibility: hidden;
-}
+}*/
+
+
 
 .jumbotron {
 padding-top: 60px;
@@ -327,13 +329,14 @@ margin-right: 25px;
 .navbar-default .navbar-brand {
 color: #6FC2A6;
 font-weight: bold;
-margin-top: 5px;
+/*margin-top: 5px;*/
 }
 
 
 .navbar-default .navbar-nav>li>a {
     color: #6FC2A6;
     font-weight: bold;
+    /*font-size: 20px;*/
 }
 
 .sectionheader {
@@ -372,5 +375,6 @@ margin-top: 5px;
 
 
 /*.servicesdiv{
-  background-image: url("fieldrig.jpg");
+  background: url("fieldrig.jpg") no-repeat center center;
+  background-size:100% auto;
 }*/

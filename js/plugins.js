@@ -23,7 +23,7 @@
 
 // Place any jQuery/helper plugins in here.
 
-$('body').scrollspy({ target: '#navbar-example'})
+// $('body').scrollspy({ target: '#navbar-example'})
 
 
 $('#myTabs a').click(function (e) {
@@ -31,8 +31,21 @@ $('#myTabs a').click(function (e) {
   $(this).tab('show')
 })
 
+
+// NOTE: test
+
+// var offset = 80;
+//
+// $('.navbar li a').click(function(event) {
+//     event.preventDefault();
+//     $($(this).attr('href'))[0].scrollIntoView();
+//     scrollBy(0, -offset);
+// });
+
+
+
 $('.dropdown-toggle').dropdown()
-// 
+//
 // $('[data-toggle="tooltip"]').tooltip()
 //
 // $('[data-toggle="popover"]').popover()
