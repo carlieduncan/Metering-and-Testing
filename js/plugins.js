@@ -25,29 +25,10 @@
 
 // $('body').scrollspy({ target: '#navbar-example'})
 
-
 $('#myTabs a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
 
 
-// NOTE: test
-
-// var offset = 80;
-//
-// $('.navbar li a').click(function(event) {
-//     event.preventDefault();
-//     $($(this).attr('href'))[0].scrollIntoView();
-//     scrollBy(0, -offset);
-// });
-
-
-
 $('.dropdown-toggle').dropdown()
-//
-// $('[data-toggle="tooltip"]').tooltip()
-//
-// $('[data-toggle="popover"]').popover()
-//
-// $('#safetybutton').popover()

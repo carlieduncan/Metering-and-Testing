@@ -286,32 +286,48 @@ body {
   position: relative;
 }
 
+
 /* NOTE: allows navbar to jump to appropriate section */
-/**[id]:before {
+
+*[id]:before {
   display: block;
   content: " ";
-  margin-top: -70px;
-  height: 70px;
+  margin-top: -55px;
+  height: 55px;
   visibility: hidden;
-}*/
+}
 
+
+#sunset {
+background-image: url("../img/sunset.jpg");
+background-size: cover;
+color: white;
+-webkit-background-size: 100% 100%;
+ -moz-background-size: 100% 100%;
+ -o-background-size: 100% 100%;
+ background-size: 100% 100%;
+}
 
 
 .jumbotron {
-padding-top: 60px;
+/*padding-top: 60px;*/
 background-color: inherit;;
 }
 
 .jumbotron img {
-  height: 550px;
-  max-width:100%;
+  height: 300px;
+  /*max-width:100%;*/
+  background-size: cover;
+  -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
 }
 
 .thumbnail img{
    min-height:150px;
    height:150px;
 }
-
 
 .thumbnail_container{
   margin: 15px;
@@ -329,14 +345,13 @@ margin-right: 25px;
 .navbar-default .navbar-brand {
 color: #6FC2A6;
 font-weight: bold;
-/*margin-top: 5px;*/
+/*margin-top: 8px;*/
 }
 
 
 .navbar-default .navbar-nav>li>a {
     color: #6FC2A6;
     font-weight: bold;
-    /*font-size: 20px;*/
 }
 
 .sectionheader {
@@ -370,11 +385,4 @@ font-weight: bold;
   list-style-type: none;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  /*font-family: 'Old Standard TT', serif;*/
 }
-
-
-/*.servicesdiv{
-  background: url("fieldrig.jpg") no-repeat center center;
-  background-size:100% auto;
-}*/

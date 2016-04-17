@@ -1,7 +1,13 @@
-// var offset = 80;
-//
-// $('.navbar li a').click(function(event) {
-//     event.preventDefault();
-//     $($(this).attr('href'))[0].scrollIntoView();
-//     scrollBy(0, -offset);
-// });
+
+
+
+// NOTE: closes menu on mobile
+$('.nav a').on('click', function(){
+
+if ($(document).width() <= 767){
+
+$(".navbar-toggle").click();
+
+}
+
+});
