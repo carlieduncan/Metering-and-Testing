@@ -310,8 +310,20 @@ color: white;
 
 
 .jumbotron {
-/*padding-top: 60px;*/
 background-color: inherit;;
+}
+
+div#logojumbotron.jumbotron {
+  padding: 0;
+}
+
+div#sunset.jumbotron.jumbotron-fluid {
+  margin-bottom:0;
+  margin-top: 40px;
+}
+
+div.container-fluid {
+  padding: 0;
 }
 
 .jumbotron img {
@@ -322,6 +334,7 @@ background-color: inherit;;
    -moz-background-size: 100% 100%;
    -o-background-size: 100% 100%;
    background-size: 100% 100%;
+   padding:
 }
 
 .thumbnail img{
@@ -359,6 +372,7 @@ font-weight: bold;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
+
 
 
 /* NOTE: google maps */
