@@ -302,6 +302,7 @@ body {
 background-image: url("../img/sunset.jpg");
 background-size: cover;
 color: white;
+font-family: 'Raleway', sans-serif;
 /*width: inherit;*/
 -webkit-background-size: 100% 100%;
  -moz-background-size: 100% 100%;
